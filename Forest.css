@@ -169,6 +169,9 @@ sup {
     background: linear-gradient(to bottom,#9c9,#696,#363);
     box-shadow: 0 1px 3px rgba(0,0,0,.8);
 }
+#search-top-box-input {
+    display: none;
+}
 #login-status {
     color: #aaa;
     font-size: 90%;
@@ -1242,11 +1245,7 @@ img, embed, video, object, iframe, table {
     }
 }
  
-@media (max-width: 479px) {
-    #search-top-box-input {
-        display: none;
-    }
- 
+@media (max-width: 479px) { 
     #page-content {
         font-size: .9em;
     }
