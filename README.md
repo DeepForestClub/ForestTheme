@@ -1,4 +1,4 @@
-## Forest（森林）主题
+## 森林Forest主题
 <p>
  
 <a href="https://github.com/DeepForest-Club/ForestTheme/blob/master/LICENSE.md">
