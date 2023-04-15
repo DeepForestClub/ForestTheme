@@ -7,7 +7,7 @@
 
 </p>
   
-这是 森林（Forest） 版式主题的Github存储库。是用于[深林文学部](https://deep-forest-club.wikidot.com/)的默认CSS。目前由深林文学部技术组维护。
+这是**森林Forest**版式主题的Github存储库。是用于[深林文学部](https://deep-forest-club.wikidot.com/)的默认CSS。目前由深林文学部技术组维护。
 
 在编辑或拉取到分支时，CSS将被会部署到GitHub Pages，在操作完成后，CSS即可以在深林文学部使用。 
 
