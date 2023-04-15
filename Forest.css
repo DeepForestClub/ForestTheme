@@ -148,17 +148,17 @@ sup {
     background-color: #007f00;
     box-shadow: inset 1px 1px 3px rgba(0,0,0,.8);
 }
-#search-top-box-form input[type=submit] {
-    border: solid 1px #999;
-    border-radius: 5px;
-    padding: 2px 5px;
-    font-size: 90%;
-    font-weight: bold;
-    color: #ccc;
-    background-color: #363;
-    background: linear-gradient(to bottom,#696,#363,#3d4c3d);
-    box-shadow: 0 1px 3px rgba(0,0,0,.5);
-    cursor: pointer;
+#search-top-box-form input[type="submit"] {
+  border: solid 1px #999;
+  border-radius: 5px;
+  padding: 2px 5px;
+  font-size: 85%;
+  font-weight: bold;
+  color: #ccc;
+  background-color: #363;
+  background: linear-gradient(to bottom,#696,#363,#3d4c3d);
+  cursor: pointer;
+  width: 18%;
 }
 #search-top-box-form input[type=submit]:hover,
 #search-top-box-form input[type=submit]:focus {
