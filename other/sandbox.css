@@ -1,0 +1,12 @@
+@import url('https://deepforest-club.github.io/ForestTheme/Forest.css');
+div#container-wrap {
+    background-image: url(https://scpsandboxcn.wikidot.com/local--files/component:theme/body_bg.png);
+    background-repeat: repeat-x;
+}
+#header {
+    background-image: url();
+    background-repeat: no-repeat;
+}
+#search-top-box {
+   display: none;
+}
