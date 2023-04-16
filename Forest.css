@@ -312,6 +312,9 @@ sup {
 .top-bar ul li:last-of-type ul {
     right: 0;
 }
+#top-bar > .top-bar > ul > li > a,#top-bar > .mobile-top-bar > ul > li > a {
+    font-weight: 700;
+}
 
 /* IE7 HACK */
 #top-bar ul > li > ul {
@@ -368,7 +371,7 @@ sup {
     margin-top: 10px;
     margin-bottom: 5px;
     font-size: 8pt;
-    font-weight: bold;
+    font-weight: 700;
 }
  
 #side-bar p {
