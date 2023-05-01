@@ -177,3 +177,8 @@
   width: auto;
   display: inline-block;
 }
+
+#header h1 a span::after {
+  margin-bottom: 0px !important;
+  font-weight: 600;
+}
