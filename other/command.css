@@ -21,9 +21,9 @@
     /*---- BEDROCK VARS ----*/
     /*----------------------*/
 
-    --logo: url('http://deep-forest-club.wdfiles.com/local--files/component%3Atheme/logo.png');
+    --logo: url('http://deep-forest-club.wdfiles.com/local--files/component%3Atheme/logo.png') !important;
 
-    --title: "深林文学部管理组";
+    --title: "深林文学部管理组" !important;
 
     --subtitle-size: 0rem;
     --title-size: 1.3rem;
@@ -174,11 +174,11 @@
 }
 
 .buttons {
-  width: auto;
-  display: inline-block;
+  width: auto !important;
+  display: inline-block !important;
 }
 
 #header h1 a span::after {
   margin-bottom: 0px !important;
-  font-weight: 600;
+  font-weight: 600 !important;
 }
