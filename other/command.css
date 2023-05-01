@@ -25,9 +25,9 @@
 
     --title: "深林文学部管理组" !important;
 
-    --subtitle-size: 0rem;
-    --title-size: 1.3rem;
-    --title-text-indent: 60px;
+    --subtitle-size: 0rem !important;
+    --title-size: 1.3rem !important;
+    --title-text-indent: 60px !important;
     --base-header-height: calc((var(--title-size) + var(--subtitle-size))*1.5 + 0.5rem);
     --header-border-width: 0rem;
 
