@@ -172,3 +172,8 @@
         flex-basis: 6.45rem;
     }
 }
+
+.buttons {
+  width: auto;
+  display: inline-block;
+}
