@@ -183,6 +183,9 @@
   font-weight: 600 !important;
 }
 
-.top-bar > ul > li > ul , .mobile-top-bar > ul > li > ul {
+.top-bar > ul > li > a ,
+.mobile-top-bar > ul > li > a,
+.top-bar > ul > li > ul,
+.mobile-top-bar > ul > li > ul {
   margin-left: 5px !important;
 }
