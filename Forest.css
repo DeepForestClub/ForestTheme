@@ -1318,9 +1318,23 @@ div.preview {
     display: none;
 }
 
-/* Form Label,by lest-day */
+/* Page Form Label,by lest-day */
 .form-label {
     width: 68px;
     display: block;
 }
 
+.form-value {
+    display: inline-block;
+    width: 94%;
+}
+
+form > .button {
+    background-color: #DDD;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+}
+
+form > .text,.form-control {
+    padding: 0.3rem;
+}
