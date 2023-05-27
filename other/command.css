@@ -1,191 +1,151 @@
-/* 
-   * SCP: 5K Theme - [2023 Wikidot Theme]
-   | * By Liryn, Placeholder McD,Edit by lest-day
-   | * Basalt / Built on Bedrock / There are changes
-   | * 玄武岩  / 基于玄武岩主题框架 / 有为适配本站而改动
-   * 适用于CC BY-SA 3.0授权协议
-*/
-
-/*-----------------*/
-/*---- IMPORTS ----*/
-/*-----------------*/
-
-@import url('https://deepforest-club.github.io/ForestTheme/Forest.css');
-@import url('https://scp-wiki-cn.wdfiles.com/local--code/theme%3Abasalt/1');
-@import url('https://fonts.googleapis.com/css2?family=Barlow:ital@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Saira:wght@400;700&display=swap');
+@charset "utf-8";
+@import url("https://deepforest-club.github.io/ForestTheme/Forest.css");
+@import url("https://scp-wiki-cn.wdfiles.com/local--code/theme%3Abasalt/1");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Saira:wght@400;700&display=swap");
 
 :root {
-
-    /*----------------------*/
-    /*---- BEDROCK VARS ----*/
-    /*----------------------*/
-
-    --logo: url('http://deep-forest-club.wdfiles.com/local--files/component%3Atheme/logo.png') !important;
-
-    --title: "深林文学部管理组" !important;
-
-    --subtitle-size: 0rem !important;
-    --title-size: 1.3rem !important;
-    --title-text-indent: 60px !important;
-    --base-header-height: calc((var(--title-size) + var(--subtitle-size))*1.5 + 0.5rem);
-    --header-border-width: 0rem;
-
-    --header-font-primary: var(--UI-font-primary);
-    --UI-font-primary: 'Saira';
-
-    --basalt-UI-dark-palette: 45, 45, 45;
-    --basalt-bright-element-color: 228, 33, 33;
-    --basalt-dark-element-color: 203, 77, 77;
-    --basalt-primary-color: 3, 3, 3;
-    --basalt-secondary-color: 8, 8, 8;
-    --basalt-tertiary-color: 30, 30, 30;
-    --general-border-color: 40, 40, 40;
-    --basalt-main-text-color: 210, 210, 210;
-    
-    --basalt-focus-color: var(--basalt-bright-element-color);
-    --selection-text-color: var(--basalt-main-text-color);
-    --header-background-color: var(--basalt-primary-color);
-    --header-title-color: 240, 240, 240;
-    --top-bar-dropdown-link-color-hover: var(--basalt-main-text-color);
-    --top-bar-link-background-hover: var(--top-bar-link-background-hover-alt);
-    --side-bar-link-color-hover: var(--basalt-main-text-color);
-    --side-bar-background-color: var(--basalt-primary-color);
-    --bottom-area-background-color: var(--basalt-primary-color);
+	--logo: url(http://deep-forest-club.wdfiles.com/local--files/component%3Atheme/logo.png)!important;
+	--title: "深林文学部管理组"!important;
+	--subtitle-size: 0rem!important;
+	--title-size: 1.3rem!important;
+	--title-text-indent: 60px!important;
+	--base-header-height: calc((var(--title-size) + var(--subtitle-size))*1.5 + 0.5rem);
+	--header-border-width: 0rem;
+	--header-font-primary: var(--UI-font-primary);
+	--UI-font-primary: "Saira";
+	--basalt-UI-dark-palette: 45,45,45;
+	--basalt-bright-element-color: 228,33,33;
+	--basalt-dark-element-color: 203,77,77;
+	--basalt-primary-color: 3,3,3;
+	--basalt-secondary-color: 8,8,8;
+	--basalt-tertiary-color: 30,30,30;
+	--general-border-color: 40,40,40;
+	--basalt-main-text-color: 210,210,210;
+	--basalt-focus-color: var(--basalt-bright-element-color);
+	--selection-text-color: var(--basalt-main-text-color);
+	--header-background-color: var(--basalt-primary-color);
+	--header-title-color: 240,240,240;
+	--top-bar-dropdown-link-color-hover: var(--basalt-main-text-color);
+	--top-bar-link-background-hover: var(--top-bar-link-background-hover-alt);
+	--side-bar-link-color-hover: var(--basalt-main-text-color);
+	--side-bar-background-color: var(--basalt-primary-color);
+	--bottom-area-background-color: var(--basalt-primary-color);
 }
 
-/*--------------------*/
-/*---- 5K CLASSES ----*/
-/*--------------------*/
-
 #page-content .quint {
-    font-family: var(--UI-font);
+	font-family: var(--UI-font);
 }
 
 #page-content .metam {
-    font-family: 'Barlow', sans-serif !important;
-    color: transparent !important;
-    background-color: transparent !important;
-    border: none !important;
+	border: none!important;
+	background-color: transparent!important;
+	font-family: Barlow,sans-serif!important;
 }
 
-#page-content .metam :is(th, td) {
-    color: transparent !important;
+#page-content .metam,#page-content .metam :is(th,td) {
+	color: transparent!important;
 }
 
 .a12_memo {
-    --memo-heading: "! INTERNAL SECURITY NOTICE !";
-    --memo-logo: url(http://smlt.wdfiles.com/local--files/collab:dr-moist:theatre/O4);
-    --memo-color: var(--basalt-bright-element-color);
-    font-family: var(--UI-font);
-    font-size: 1.1em;
-    background-blend-mode: soft-light;
+	font-size: 1.1em;
+	--memo-heading: "! INTERNAL SECURITY NOTICE !";
+	--memo-logo: url(http://smlt.wdfiles.com/local--files/collab:dr-moist:theatre/O4);
+	--memo-color: var(--basalt-bright-element-color);
+	background-blend-mode: soft-light;
+}
+
+.a12_memo,.series-nav {
+	font-family: var(--UI-font);
 }
 
 .series-nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    align-items: baseline;
-
-    margin: 1rem 0;
-    padding: .02rem 1rem;
-    background: rgb(var(--basalt-tertiary-color));
-
-    border-top-right-radius: .67rem;
-    border-top-left-radius: .67rem;
-
-    font-size: 1.2em;
-    font-family: var(--UI-font);
+	display: flex;
+	margin: 1rem 0;
+	padding: .02rem 1rem;
+	border-top-right-radius: .67rem;
+	border-top-left-radius: .67rem;
+	background: rgb(var(--basalt-tertiary-color));
+	font-size: 1.2em;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	align-items: baseline;
 }
 
 .series-nav>* {
-    margin: 0 0.3em;
+	margin: 0 .3em;
 }
 
 .end_card {
-    background: linear-gradient(145deg, rgba(var(--basalt-dark-element-color), 0.5) 0%, rgb(var(--basalt-tertiary-color)) 80%);
-    padding: 1.25rem 2rem;
-    text-align: center;
+	padding: 1.25rem 2rem;
+	background: linear-gradient(145deg,rgba(var(--basalt-dark-element-color),.5),rgb(var(--basalt-tertiary-color)) 80%);
+	text-align: center;
 }
-
-/*--------------*/
-/*---- MISC ----*/
-/*--------------*/
 
 #content-wrap {
-    background-image: radial-gradient(rgb(30, 30, 30) 10%, transparent 10%);
-    background-position: 1px 1px;
-    background-size: 16px 16px;
+	background-image: radial-gradient(#1e1e1e 10%,transparent 0);
+	background-position: 1px 1px;
+	background-size: 16px 16px;
 }
 
-/* MISC --> Header alterations */
-
-#header h1 a span::before {
-    margin-inline: 6px;
-    letter-spacing: -2px;
+#header h1 a span:before {
+	letter-spacing: -2px;
+	margin-inline: 6px;
 }
-
-/* MISC --> UI alterations */
 
 #main-content>.page-tags>span a {
-    color: rgb(var(--basalt-main-text-color));
-    background: none !important;
+	background: none!important;
+	color: rgb(var(--basalt-main-text-color));
 }
 
-#main-content>.page-tags>span a:is(:hover, :focus) {
-    color: rgb(var(--basalt-bright-element-color));
-    box-shadow: none;
+#main-content>.page-tags>span a:is(:hover,:focus) {
+	box-shadow: none;
+	color: rgb(var(--basalt-bright-element-color));
 }
 
-/* MISC --> Content alterations */
-
-#page-title, .meta-title {
-    border-bottom: none;
-    color: rgba(var(--basalt-main-text-color), 0.9);
+#page-title,.meta-title {
+	border-bottom: none;
+	color: rgba(var(--basalt-main-text-color),.9);
 }
 
-.fncon::before {
-    color: rgba(0, 0, 0, 0.75);
+.fncon:before {
+	color: rgba(0,0,0,.75);
 }
 
-.fnnum:hover::after {
-    color: black;
+.fnnum:hover:after {
+	color: #000;
 }
 
 ::selection {
-    background-color: rgba(var(--selection-background-color), 0.4);
+	background-color: rgba(var(--selection-background-color),.4);
 }
 
 #login-status ul a {
-	color: rgb(210, 210, 210) !important;
 	background: transparent;
+	color: #d2d2d2!important;
 }
 
 #search-top-box {
-    display: none !important;
+	display: none!important;
 }
 
-@media (min-width: 767px) {
-    div[id*="page-options-bottom"] > a {
-        flex-basis: 6.45rem;
-    }
+@media (min-width:767px) {
+	div[id*=page-options-bottom]>a {
+		flex-basis: 6.45rem;
+	}
 }
 
 .buttons {
-  width: auto !important;
-  display: inline-block !important;
+	display: inline-block!important;
+	width: auto!important;
 }
 
-#header h1 a span::after {
-  margin-bottom: 0px !important;
-  font-weight: 600 !important;
+#header h1 a span:after {
+	margin-bottom: 0!important;
+	font-weight: 600!important;
 }
 
-.top-bar > ul > li > a ,
-.mobile-top-bar > ul > li > a,
-.top-bar > ul > li > ul,
-.mobile-top-bar > ul > li > ul {
-  margin-left: 5px !important;
+.mobile-top-bar>ul>li>a,.mobile-top-bar>ul>li>ul,.top-bar>ul>li>a,.top-bar>ul>li>ul {
+	margin-left: 5px!important;
 }
