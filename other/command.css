@@ -6,7 +6,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Saira:wght@400;700&display=swap");
 
 :root {
-	--logo: url(http://deep-forest-club.wdfiles.com/local--files/component%3Atheme/logo.png)!important;
+	--logo: url("http://deep-forest-club.wdfiles.com/local--files/component%3Atheme/logo.png")!important;
 	--title: "深林文学部管理组"!important;
 	--subtitle-size: 0rem!important;
 	--title-size: 1.3rem!important;
@@ -46,18 +46,6 @@
 
 #page-content .metam,#page-content .metam :is(th,td) {
 	color: transparent!important;
-}
-
-.a12_memo {
-	font-size: 1.1em;
-	--memo-heading: "! INTERNAL SECURITY NOTICE !";
-	--memo-logo: url(http://smlt.wdfiles.com/local--files/collab:dr-moist:theatre/O4);
-	--memo-color: var(--basalt-bright-element-color);
-	background-blend-mode: soft-light;
-}
-
-.a12_memo,.series-nav {
-	font-family: var(--UI-font);
 }
 
 .series-nav {
