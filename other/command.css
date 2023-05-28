@@ -41,7 +41,6 @@
 #page-content .metam {
 	border: none!important;
 	background-color: transparent!important;
-	font-family: Barlow,sans-serif!important;
 }
 
 #page-content .metam,#page-content .metam :is(th,td) {
