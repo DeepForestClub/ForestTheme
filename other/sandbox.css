@@ -2,6 +2,14 @@
 
 @import url(https://deepforest-club.github.io/ForestTheme/Forest.css);
 
+#header {
+    background: url('') !important;
+}
+
+#header h1,#header h2 {
+  margin-left: 5px !important;
+}
+
 div#container-wrap {
 	background-image: url(https://scpsandboxcn.wikidot.com/local--files/component:theme/body_bg.png);
 	background-repeat: repeat-x;
