@@ -72,12 +72,12 @@ li, p {
 
 a {
 	background: transparent;
-	color: #007f00;
+	color: #080;
 	text-decoration: none;
 }
 
 a:visited {
-	color: #4e9b01;
+	color: #5dc648;
 }
 
 a:hover {
@@ -91,7 +91,7 @@ a:hover {
 
 a.newpage {
 	background: transparent;
-	color: #8ab535;
+	color: #c2c160;
 	text-decoration: none;
 }
 
