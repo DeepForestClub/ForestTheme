@@ -616,7 +616,14 @@ sup {
 .yui-navset li {
 	line-height: normal;
 }
- 
+
+/* EDITOR TOOLBAR PANEL */
+.wd-editor-toolbar-panel > div >ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
 /* FOOTER */
 #footer {
 	clear: both;
