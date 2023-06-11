@@ -53,7 +53,7 @@ h2, h3, h4, h5, h6 {
 	margin: 0 0 0.6em;
 	padding: 0 0 0.25em;
 	border-bottom: solid 1px #bbb;
-	color: #901;
+	color: #007f00;
 	font-weight: normal;
 	font-size: 200%;
 }
@@ -72,12 +72,12 @@ li, p {
 
 a {
 	background: transparent;
-	color: #b01;
+	color: #3c9147;
 	text-decoration: none;
 }
 
 a:visited {
-	color: #824;
+	color: #177717;
 }
 
 a:hover {
@@ -86,12 +86,12 @@ a:hover {
 }
 
 #side-bar a:visited {
-	color: #b01;
+	color: #177717;
 }
 
 a.newpage {
 	background: transparent;
-	color: #d61;
+	color: #a3c982;
 	text-decoration: none;
 }
 
@@ -418,7 +418,7 @@ sup {
 	margin-bottom: 5px;
 	padding-left: 15px;
 	border-bottom: solid 1px #600;
-	color: #600;
+	color: #114514;
 	font-weight: 700;
 	font-size: 8pt;
 }
