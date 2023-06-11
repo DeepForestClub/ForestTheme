@@ -72,12 +72,12 @@ li, p {
 
 a {
 	background: transparent;
-	color: #5bd06a;
+	color: #007f00;
 	text-decoration: none;
 }
 
 a:visited {
-	color: #11a811;
+	color: #4e9b01;
 }
 
 a:hover {
@@ -91,7 +91,7 @@ a:hover {
 
 a.newpage {
 	background: transparent;
-	color: #a3c982;
+	color: #8ab535;
 	text-decoration: none;
 }
 
@@ -322,7 +322,7 @@ sup {
 	border-right: solid 1px rgba(64,64,64,1);
 	border-left: solid 1px rgba(64,64,64,1);
 	background: #eee;
-	color: #a01;
+	color: #177717;
 }
 
 #top-bar ul li.sfhover ul li a,
@@ -354,7 +354,7 @@ sup {
 }
 
 #top-bar ul li ul a, #top-bar a:hover {
-	color: #a01;
+	color: #177717;
 }
 
 .top-bar ul li:last-of-type ul {
