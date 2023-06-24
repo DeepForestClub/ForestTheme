@@ -3,10 +3,10 @@ name: CSS Optimization
 on:
   push:
     paths:
-      - 'Forest.css' # 当有人提交 Forest.css 文件时触发工作流程
+      - 'Forest.css'
   pull_request:
     paths:
-      - 'Forest.css' # 当有人编辑 Forest.css 文件时触发工作流程
+      - 'Forest.css'
 
 jobs:
   css_optimization:
@@ -27,12 +27,16 @@ jobs:
       - name: CSS optimization
         run: npx clean-css Forest.css -o Forest.min.css
 
+      - name: Set up Git
+        uses: actions/setup-git@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          config-name: ${{ github.event.pull_request.user.login }}
+          config-email: ${{ github.event.pull_request.user.email }}
+
       - name: Commit and push changes
         if: github.event_name == 'push'
         run: |
-          git config user.name "${GITHUB_ACTOR}"
-          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-
           git stash
           git checkout main
           git stash apply && git stash drop
