@@ -1,0 +1,41 @@
+name: CSS Optimization
+
+on:
+  push:
+    paths:
+      - 'Forest.css' # 当有人提交 Forest.css 文件时触发工作流程
+  pull_request:
+    paths:
+      - 'Forest.css' # 当有人编辑 Forest.css 文件时触发工作流程
+
+jobs:
+  css_optimization:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: CSS optimization
+        run: npx clean-css Forest.css -o Forest.min.css
+
+      - name: Commit and push changes
+        if: github.event_name == 'push'
+        run: |
+          git config user.name "${GITHUB_ACTOR}"
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+
+          git stash
+          git checkout main
+          git stash apply && git stash drop
+          git add Forest.min.css
+          git commit -m 'Update optimized CSS'
+          git push origin HEAD:main
