@@ -877,12 +877,6 @@ div.page-rate-widget-box .rate-points {
     overflow-wrap: anywhere;
 }
  
-/* Wikiwalk Navigation */
-.footer-wikiwalk-nav {
-    font-weight: bold;
-    font-size: 75%;
-}
- 
 /* Licensebox */
 .licensebox .collapsible-block-link {
     margin-left: .25em;
