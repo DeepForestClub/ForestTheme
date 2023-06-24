@@ -30,7 +30,7 @@ jobs:
       - name: Set up Git
         uses: actions/setup-git@v2
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           config-name: ${{ github.event.pull_request.user.login }}
           config-email: ${{ github.event.pull_request.user.email }}
 
