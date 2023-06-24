@@ -1,0 +1,30 @@
+name: Optimize CSS
+
+on:
+  push:
+    branches: [ master ]
+    paths:
+      - 'Forest.css'
+
+jobs:
+  optimize-css:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Install dependencies
+        run: npm install cssnano postcss-cli csso-cli
+      - name: Optimize CSS
+        run: |
+          postcss Forest.css -o Forest.min.css --use cssnano --no-map
+          csso Forest.min.css -o Forest.min.css --restructure-off
+      - name: Authenticate with GitHub
+        uses: actions/setup-git@v2
+        with:
+          fetch-depth: 0 # Required for pushing back to the repo
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit changes
+        run: |
+          git add Forest.min.css
+          git commit -m "Optimize CSS"
+          git push
