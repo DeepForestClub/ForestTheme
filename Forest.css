@@ -76,17 +76,9 @@ a {
 	text-decoration: none;
 }
 
-a:visited {
-	color: #5dc648;
-}
-
 a:hover {
 	background-color: transparent;
 	text-decoration: underline;
-}
-
-#side-bar a {
-	color: #177717;
 }
 
 a.newpage {
@@ -212,12 +204,12 @@ sup {
 
 #login-status ul a {
 	background: transparent;
-	color: #700;
+	color: #080;
 }
 
 #account-topbutton {
 	background: #ccc;
-	color: #700;
+	color: #080;
 }
 
 .printuser img.small {
@@ -597,7 +589,7 @@ sup {
 .yui-navset .yui-nav .selected a:focus, /* no focus effect for selected */
 .yui-navset .yui-nav .selected a:hover {
  /* no hover effect for selected */
-	background: #700 url('https://d3g0gp89917ko0.cloudfront.net/v--3b8418686296/common--theme/shiny/images/yuitabs.png') repeat-x left -1400px;
+	background: #080 url('https://d3g0gp89917ko0.cloudfront.net/v--3b8418686296/common--theme/shiny/images/yuitabs.png') repeat-x left -1400px;
  /* selected tab background */
 	color: #fff;
 }
