@@ -7,6 +7,7 @@ on:
   pull_request:
     paths:
       - 'Forest.css'
+  workflow_dispatch:
 
 jobs:
   css_optimization:
@@ -25,21 +26,18 @@ jobs:
         run: npm install
 
       - name: CSS optimization
-        run: npx clean-css Forest.css -o Forest.min.css
+        run: |
+          npx clean-css Forest.css -o ${{ github.workspace }}/Forest.min.css
+          mv ${{ github.workspace }}/Forest.min.css .
 
-      - name: Set up Git
-        uses: actions/setup-git@v2
-        with:
-          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-          config-name: ${{ github.event.pull_request.user.login }}
-          config-email: ${{ github.event.pull_request.user.email }}
+      - name: Configure Git
+        run: |
+          git config --global user.name "${{ github.actor }}"
+          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
 
       - name: Commit and push changes
-        if: github.event_name == 'push'
+        if: ${{ github.event_name == 'push' || github.event_name == 'pull_request' || github.event_name == 'repository_dispatch' }}
         run: |
-          git stash
-          git checkout main
-          git stash apply && git stash drop
           git add Forest.min.css
-          git commit -m 'Update optimized CSS'
-          git push origin HEAD:main
+          git commit -m 'Update optimized CSS' --allow-empty
+          git push origin HEAD:master
