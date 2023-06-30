@@ -1,11 +1,6 @@
 ## 森林Forest主题
-<p>
- 
-<a href="https://github.com/DeepForest-Club/ForestTheme/blob/master/LICENSE.md">
-<img src="https://img.shields.io/badge/license-CC%20BY--SA-blue" alt="Rust CI badge">
-</a>
 
-</p>
+[![](https://img.shields.io/badge/License-CC%20BY--SA%203.0-lightgrey.svg?style=flat-square)](https://creativecommons.org/licenses/by-sa/3.0/deed.cn)
   
 这是**森林Forest**版式主题的Github存储库。是用于[深林文学部](https://deep-forest-club.wikidot.com/)的默认CSS。目前由深林文学部技术组维护。
 
