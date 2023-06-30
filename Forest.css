@@ -582,21 +582,20 @@ sup {
 .yui-navset .yui-nav a,
 .yui-navset .yui-navset-top .yui-nav a {
 	background-color: #d8d8d8;
-	background-image: url('https://d3g0gp89917ko0.cloudfront.net/v--3b8418686296/common--theme/shiny/images/yuitabs.png');
 }
 
 .yui-navset .yui-nav .selected a,
 .yui-navset .yui-nav .selected a:focus, /* no focus effect for selected */
 .yui-navset .yui-nav .selected a:hover {
  /* no hover effect for selected */
-	background: #080 url('https://d3g0gp89917ko0.cloudfront.net/v--3b8418686296/common--theme/shiny/images/yuitabs.png') repeat-x left -1400px;
+	background: #080;
  /* selected tab background */
 	color: #fff;
 }
 
 .yui-navset .yui-nav a:hover,
 .yui-navset .yui-nav a:focus {
-	background: #d88 url('https://d3g0gp89917ko0.cloudfront.net/v--3b8418686296/common--theme/shiny/images/yuitabs.png') repeat-x left -1300px;
+	background: #83d583;
 	text-decoration: none;
 }
 
