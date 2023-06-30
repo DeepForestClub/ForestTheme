@@ -1092,16 +1092,16 @@ div.page-rate-widget-box .rate-points {
 /* Blockquote Mimic Div */
 div.blockquote {
     padding: 1px 10px;
-    border: none;
-    border-radius: 2px;
+    border: 1.2px solid #888;
+    border-radius: 4px;
     background-color: #f3f3f3;
-    box-shadow: 1px 1px 1px #cfcaca9e;
+    box-shadow: 1px 1px 1px #dcdcdc9e;
 }
 
 blockquote {
     padding: 1px 10px;
-    border: none;
-    border-radius: 2px;
+    border: 1.2px solid #888;
+    border-radius: 4px;
     background-color: #e6e6e6;
     box-shadow: 1px 1px 1px #dcdcdc9e;
 }
