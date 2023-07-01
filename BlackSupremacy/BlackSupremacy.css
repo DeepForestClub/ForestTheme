@@ -3,15 +3,10 @@ Black Supremacy
 [2020 Wikidot Theme]
 
 由 eastleavecn lest-day 修改以适配 时间轴书店。
-
 Created by Vizlox as the official RPC theme.
- 
 Based on code from "Supremacy" created by James Pitchford, the "RPC Authority Dark Theme" Style created by Bobby The Evil, and the SCP Foundation Wiki "Sigma-9" theme and style which was designed by Aelanna.
- 
 Thanks to MrPines for major bug fixes and code additions.
-
 Header Image created by Logangreenjeans
-
 The code for the sideTabview was adapted from code created by JimmyBoyHaha
 */
  
@@ -88,12 +83,12 @@ The code for the sideTabview was adapted from code created by JimmyBoyHaha
 --button-current-background: var(--primary-background);
  
 /* Header Icon */
---header-icon: url(https://chongzhen.wikidot.com/local--files/files:eastleave/tlb-logo.png);
+--header-icon: url(https://theme.dfcwiki.eu.org/BlackSupremacy/img/tlb-logo.png);
 --header-icon-adv: left 1.2em top 1rem no-repeat;
 --header-icon-size: auto calc(9.5rem - 2.125rem);
 
 /* Header Background */
---header-background: url(https://rpcauthority.wdfiles.com/local--files/component%3Atheme/darkHeader3.png);
+--header-background: url(https://theme.dfcwiki.eu.org/BlackSupremacy/img/darkHeader3.png);
 
 /* Set to hidden to enable custom text */
 --header-text-visibility: visible;
@@ -330,31 +325,6 @@ The code for the sideTabview was adapted from code created by JimmyBoyHaha
  
 #side-bar div.menu-item p {
     margin: 0;
-}
- 
-#side-bar .menu-item a[href="/rpc-series"]::after {
-    font-size: 80%;
-    opacity: 0.7;
-    margin-left: 0.5em;
-    content: "(001-999)"
-}
- 
-#side-bar .menu-item a[href="https://discord.gg/a4pCKTW/"]::before {
-    content: url('https://rpcauthority.wdfiles.com/local--files/nav%3Aside/discord.png');
-    position: absolute;
-    left: 15em;
-}
- 
-#side-bar .menu-item a[href="https://space.bilibili.com/434962573/"]::before {
-    content: url('http://rpc-wiki-cn.wdfiles.com/local--files/nav%3Aside/bi.png');
-    position: absolute;
-    left: 15em;
-}
- 
-#side-bar .menu-item a[href="https://steamcommunity.com/groups/ORPCCNGP"]::before {
-    content: url('https://rpcauthority.wdfiles.com/local--files/nav%3Aside/steam.png');
-    position: absolute;
-    left: 15em;
 }
  
 #main-content {
