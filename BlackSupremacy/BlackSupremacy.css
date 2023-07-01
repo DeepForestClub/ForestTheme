@@ -1984,6 +1984,68 @@ span.error-inline em::after {
     overflow-wrap: break-word;
 }
 
+/* Hide Forum Signatures */
+.signature {
+    display: none !important;
+}
+ 
+/* Hide Avatar Hover */
+#avatar-hover-container {
+    display: none;
+}
+
+/* Remove the white border of the avatar from the user info,by BackroomsCN */
+#odialog-container .owindow>div.modal-body>img[style*="padding: 2px 8px;"]:first-child {
+    background-color: initial!important;
+}
+
+/* Resize special content,by BackroomsCN */
+.post-container>.post>.long>.content>img,
+.post-container>.post>.long>.content>embed,
+.post-container>.post>.long>.content>video,
+.post-container>.post>.long>.content>object,
+.post-container>.post>.long>.content>iframe,
+.post-container>.post>.long>.content>table {
+    max-width: 100%;
+}
+
+/* Adjust the vertical alignment of special content,by BackroomsCN */
+.post-container>.post>.long>.content>audio,
+.post-container>.post>.long>.content>canvas,
+.post-container>.post>.long>.content>iframe,
+.post-container>.post>.long>.content>img,
+.post-container>.post>.long>.content>svg,
+.post-container>.post>.long>.content>video {
+    vertical-align: middle;
+}
+
+/* Restrict unhidden images,by BackroomsCN */
+.thread-container .post .long .content .image:not(.collapsible-block .image) {
+    width: 100%;
+    max-height: 2em;
+    transition: max-height 0.5s;
+    object-fit: cover;
+}
+.thread-container .post .long .content .image:hover:not(.collapsible-block .image) {
+    max-height: 100em;
+}
+ 
+/* Limit Forum H1 and H2,by lest-day */
+.post-container>.post>.long>.content>h1 .thread-container>.post>.long>.content>h1 {
+    margin: 0.5em 0 0.4em;
+    padding: 0;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 185%;
+}
+.post-container>.post>.long>.content>h2 .thread-container>.post>.long>.content>h2 {
+    margin: 0.5em 0 0.4em;
+    padding: 0;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 200%;
+}
+
 /* Add some spacing below close collapsible links */
 .collapsible-block-unfolded-link {
     margin-bottom: 10px;
