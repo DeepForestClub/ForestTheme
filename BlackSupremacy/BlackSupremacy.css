@@ -14,9 +14,7 @@ The code for the sideTabview was adapted from code created by JimmyBoyHaha
 
 @import url('https://fonts.googleapis.com/css?family=Exo+2');
 @import url('https://fonts.googleapis.com/css?family=Michroma');
-@import url('https://fonts.googleapis.com/earlyaccess/nanumgothic.css');
-@import url('https://fonts.googleapis.com/earlyaccess/nanumgothiccoding.css');
-@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+@import url('https://cdn.bootcdn.net/ajax/libs/font-awesome/5.15.4/css/all.min.css');
  
 :root {
 
@@ -310,11 +308,8 @@ The code for the sideTabview was adapted from code created by JimmyBoyHaha
 #side-bar div.menu-item a {
     transition: all 0.1s ease-in-out;
     display: block;
-    margin: 0 calc(-1em - 1px) 0 -0.5em;
     padding: 0.4em 1em 0.4em 0.5em;
-    font-size: 12.8px;
     color: var(--sidebar-color);
-    width: 220px;
 }
  
 #side-bar div.menu-item a:hover {
@@ -402,21 +397,7 @@ div#container-wrap {
 }
  
 #search-top-box-input {
-    transition: background-color 0.5s ease;
-    border: var(--search-input-border);
-    border-radius: 0;
-    color: var(--text-color);
-    background-color: var(--search-input-color);
-    height: 20px;
-    box-sizing: border-box;
-    vertical-align: bottom;
-}
- 
-#search-top-box-input:hover,
-#search-top-box-input:focus {
-    border: var(--search-input-hover-border);
-    color: var(--search-input-hover-color);
-    background-color: var(--search-input-hover);
+    display: none;
 }
  
 #search-top-box-form input[type=submit] {
