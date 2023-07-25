@@ -112,7 +112,7 @@ body {
 }
 
 div#container-wrap {
-	background: url('https://theme.dfcwiki.eu.org/files/body_bg.png') top left repeat-x;
+	background: url('https://dfctheme.ci-wiki.cn/files/body_bg.png') top left repeat-x;
 }
 
 td.name {
@@ -136,7 +136,7 @@ sup {
 	padding-bottom: 22px;
  /* FOR MENU */
 	height: 140px;
-	background: url('https://theme.dfcwiki.eu.org/files/logo.png') 10px 40px no-repeat;
+	background: url('https://dfctheme.ci-wiki.cn/files/logo.png') 10px 40px no-repeat;
 	background-size: 100px 100px;
 }
 
