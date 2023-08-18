@@ -120,7 +120,7 @@ body {
 }
 
 div#container-wrap {
-	background: url('https://theme.dfc.databasew.top/files/body_bg.png') top left repeat-x;
+	background: url('https://theme.dfc.databasew.top/files/body_bg.webp') top left repeat-x;
 }
 
 td.name {
@@ -145,7 +145,7 @@ sup {
 	padding-bottom: 22px;
 	/* FOR MENU */
 	height: 140px;
-	background: url('https://theme.dfc.databasew.top/files/logo.svg') 10px 40px no-repeat;
+	background: url('https://theme.dfc.databasew.top/files/logo.webp') 10px 40px no-repeat;
 	background-size: 100px 100px;
 }
 
