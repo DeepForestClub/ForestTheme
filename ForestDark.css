@@ -157,3 +157,7 @@ textarea {
 	background: #000 !important;
 	box-shadow: none !important;
 }
+
+.userinfo-icon {	
+    box-shadow: none !important;
+}
