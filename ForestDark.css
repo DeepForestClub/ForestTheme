@@ -46,7 +46,8 @@ body {
 	box-shadow: inset 2px 3px 6px rgba(24, 24, 24, .15);
 }
 
-.forum-thread-box .description-block {
+.forum-thread-box .description-block,
+.forum-new-thread-box .description {
 	background-color: #292929;
 	color: #c8c8c8;
 }
