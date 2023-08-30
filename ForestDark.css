@@ -22,8 +22,9 @@ body {
 	background: #252525;
 }
 
-#top-bar a:hover, #top-bar ul li ul a {
-    color: #2fb32f !important;
+#top-bar a:hover,
+#top-bar ul li ul a {
+	color: #2fb32f !important;
 }
 
 #side-bar .side-block {
@@ -31,13 +32,13 @@ body {
 }
 
 #side-bar .heading {
-    color: #207e25;
+	color: #207e25;
 }
 
 @media (max-width: 767px) {
-    #side-bar {
-        background-color: rgb(76, 125, 76);
-    }
+	#side-bar {
+		background-color: rgb(76, 125, 76);
+	}
 }
 
 .thread-container .post .head {
@@ -108,7 +109,12 @@ textarea {
 	color: #e1e1e1 !important;
 }
 
-.box,.dynamic-content,.sl {
+.box,
+.dynamic-content,
+.sl,
+.dynamic-box,
+.dynamic-previous,
+.dynamic-comments {
 	background-color: #313131 !important;
 	color: #c8c8c8;
 }
@@ -158,6 +164,6 @@ textarea {
 	box-shadow: none !important;
 }
 
-.userinfo-icon {	
-    box-shadow: none !important;
+.userinfo-icon {
+	box-shadow: none !important;
 }
