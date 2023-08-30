@@ -34,6 +34,12 @@ body {
     color: #207e25;
 }
 
+@media (max-width: 767px) {
+    #side-bar {
+        background-color: rgb(76, 125, 76);
+    }
+}
+
 .thread-container .post .head {
 	background-color: #000;
 	background-image: linear-gradient(90deg, #2f2e2e, #3c3b3b);
@@ -94,6 +100,7 @@ div.blockquote {
 	background-color: #939292 !important;
 }
 
+select,
 input,
 textarea {
 	background-color: #494848 !important;
