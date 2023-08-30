@@ -108,7 +108,7 @@ textarea {
 	color: #e1e1e1 !important;
 }
 
-.box {
+.box,.dynamic-content,.sl {
 	background-color: #313131 !important;
 	color: #c8c8c8;
 }
