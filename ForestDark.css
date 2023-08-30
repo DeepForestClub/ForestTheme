@@ -10,10 +10,6 @@ div#container-wrap {
 	background: url(https://theme.dfc.databasew.top/files/body_bg.webp) 0 0 repeat-x
 }
 
-#header {
-	background: url(https://theme.dfc.databasew.top/files/logo.webp) 10px 40px no-repeat;
-}
-
 #search-top-box-form input[type=submit] {
 	background-color: #438043 !important;
 }
@@ -36,7 +32,7 @@ div#container-wrap {
 	background: #252525;
 }
 
-#top-bar a:hover,
+#top-bar ul li a:hover,
 #top-bar ul li ul a {
 	color: #2fb32f !important;
 }
