@@ -12,18 +12,26 @@ body {
 
 #top-bar ul li.sfhover a,
 #top-bar ul li:hover a {
-	border-top: .25px solid #ddd !important;
-	background: #2a2a2a !important;
+	border-top: .25px solid #ddd;
+	background: #2a2a2a;
 }
 
 #top-bar ul li.sfhover a:hover,
 #top-bar ul li:hover a:hover {
-	border-top: .2px solid #ddd !important;
-	background: #252525 !important;
+	border-top: .2px solid #ddd;
+	background: #252525;
+}
+
+#top-bar a:hover, #top-bar ul li ul a {
+    color: #2fb32f !important;
 }
 
 #side-bar .side-block {
 	background: #1c1c1c !important;
+}
+
+#side-bar .heading {
+    color: #207e25;
 }
 
 .thread-container .post .head {
