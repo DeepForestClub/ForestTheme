@@ -18,6 +18,12 @@ div#container-wrap {
 	background-color: #438043 !important;
 }
 
+@media (max-width:767px) {
+	#top-bar .open-menu a {
+		color: #888 !important;
+	}
+}
+
 #top-bar ul li.sfhover a,
 #top-bar ul li:hover a {
 	border-top: .25px solid #ddd;
