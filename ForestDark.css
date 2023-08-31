@@ -3,7 +3,7 @@
 
 body {
 	background-color: #252525;
-	color: #c8c8c8;
+	color: #aaa;
 }
 
 div#container-wrap {
@@ -60,7 +60,7 @@ div#container-wrap {
 .forum-thread-box .description-block,
 .forum-new-thread-box .description {
 	background-color: #292929;
-	color: #c8c8c8;
+	color: #aaa;
 }
 
 .forum-category-box table>tbody>.head,
@@ -83,8 +83,14 @@ div.blockquote {
 	background-color: transparent;
 }
 
-.yui-navset .yui-content {
+.yui-navset .yui-content,
+.code {
 	background-color: #272727;
+}
+
+.rated-warning,
+.scp-image-block .scp-image-caption {
+	background-color: #2b2b2b;
 }
 
 .hovertip {
@@ -126,11 +132,11 @@ textarea {
 .dynamic-previous,
 .dynamic-comments {
 	background-color: #313131 !important;
-	color: #c8c8c8;
+	color: #aaa;
 }
 
 .alertbar {
-	color: #c8c8c8 !important;
+	color: #aaa !important;
 }
 
 .news {
