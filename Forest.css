@@ -407,6 +407,10 @@ sup {
 	background-color: #fff0f0;
 }
 
+#side-bar .side-block.debug {
+	background-color: #e3e3e3;
+}
+
 #side-bar .side-area {
 	padding: 10px;
 }
