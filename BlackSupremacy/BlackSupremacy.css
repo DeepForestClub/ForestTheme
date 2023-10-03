@@ -82,12 +82,12 @@ The code for the sideTabview was adapted from code created by JimmyBoyHaha
 	--button-current-background: var(--primary-background);
 
 	/* Header Icon */
-	--header-icon: url(https://theme.dfc.databasew.top/BlackSupremacy/img/tlb-logo.png);
+	--header-icon: url(https://theme.dfc.databasew.top/BlackSupremacy/img/tlb-logo.webp);
 	--header-icon-adv: left 1.2em top 1rem no-repeat;
 	--header-icon-size: auto calc(9.5rem - 2.125rem);
 
 	/* Header Background */
-	--header-background: url(https://theme.dfc.databasew.top/BlackSupremacy/img/darkHeader3.png);
+	--header-background: url(https://theme.dfc.databasew.top/BlackSupremacy/img/darkHeader3.webp);
 
 	/* Set to hidden to enable custom text */
 	--header-text-visibility: visible;
