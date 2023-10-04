@@ -6,10 +6,6 @@ body {
 	color: #aaa;
 }
 
-div#container-wrap {
-	background: url(https://theme.dfc.databasew.top/files/body_bg.webp) 0 0 repeat-x
-}
-
 #search-top-box-form input[type=submit] {
 	background-color: #438043 !important;
 }
@@ -145,6 +141,10 @@ textarea {
 
 .news:nth-child(odd) {
 	background: #4d4d4d !important;
+}
+
+.news .issue {
+	background: #202020 !important;
 }
 
 .cooperation-box,
