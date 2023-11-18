@@ -13,27 +13,27 @@
 @import url("https://scp-wiki.wdfiles.com/local--code/component%3Aacs-animation/1");
 
 :root {
-	--logo: url("https://theme.dfc.databasew.top/files/logo.webp")!important;
-	--title: "深林文学部管理组"!important;
-	--subtitle-size: 0rem!important;
-	--title-size: 1.3rem!important;
-	--title-text-indent: 60px!important;
+	--logo: url("https://theme.dfc.databasew.top/files/logo.webp") !important;
+	--title: "深林文学部管理组" !important;
+	--subtitle-size: 0rem !important;
+	--title-size: 1.3rem !important;
+	--title-text-indent: 60px !important;
 	--base-header-height: calc((var(--title-size) + var(--subtitle-size))*1.5 + 0.5rem);
 	--header-border-width: 0rem;
 	--header-font-primary: var(--UI-font-primary);
 	--UI-font-primary: "Saira";
-	--basalt-UI-dark-palette: 45,45,45;
-	--basalt-bright-element-color: 228,33,33;
-	--basalt-dark-element-color: 203,77,77;
-	--basalt-primary-color: 3,3,3;
-	--basalt-secondary-color: 8,8,8;
-	--basalt-tertiary-color: 30,30,30;
-	--general-border-color: 40,40,40;
-	--basalt-main-text-color: 210,210,210;
+	--basalt-UI-dark-palette: 45, 45, 45;
+	--basalt-bright-element-color: 228, 33, 33;
+	--basalt-dark-element-color: 203, 77, 77;
+	--basalt-primary-color: 3, 3, 3;
+	--basalt-secondary-color: 8, 8, 8;
+	--basalt-tertiary-color: 30, 30, 30;
+	--general-border-color: 40, 40, 40;
+	--basalt-main-text-color: 210, 210, 210;
 	--basalt-focus-color: var(--basalt-bright-element-color);
 	--selection-text-color: var(--basalt-main-text-color);
 	--header-background-color: var(--basalt-primary-color);
-	--header-title-color: 240,240,240;
+	--header-title-color: 240, 240, 240;
 	--top-bar-dropdown-link-color-hover: var(--basalt-main-text-color);
 	--top-bar-link-background-hover: var(--top-bar-link-background-hover-alt);
 	--side-bar-link-color-hover: var(--basalt-main-text-color);
@@ -46,12 +46,18 @@
 }
 
 #page-content .metam {
-	border: none!important;
-	background-color: transparent!important;
+	border: none !important;
+	background-color: transparent !important;
 }
 
-#page-content .metam,#page-content .metam :is(th,td) {
-	color: transparent!important;
+#page-content .metam,
+#page-content .metam :is(th, td) {
+	color: transparent !important;
+}
+
+#side-bar .menu-item a[href="/help-center"] {
+	text-align: center;
+	font-weight: 700;
 }
 
 .series-nav {
@@ -74,12 +80,12 @@
 
 .end_card {
 	padding: 1.25rem 2rem;
-	background: linear-gradient(145deg,rgba(var(--basalt-dark-element-color),.5),rgb(var(--basalt-tertiary-color)) 80%);
+	background: linear-gradient(145deg, rgba(var(--basalt-dark-element-color), .5), rgb(var(--basalt-tertiary-color)) 80%);
 	text-align: center;
 }
 
 #content-wrap {
-	background-image: radial-gradient(#1e1e1e 10%,transparent 0);
+	background-image: radial-gradient(#1e1e1e 10%, transparent 0);
 	background-position: 1px 1px;
 	background-size: 16px 16px;
 }
@@ -90,22 +96,23 @@
 }
 
 #main-content>.page-tags>span a {
-	background: none!important;
+	background: none !important;
 	color: rgb(var(--basalt-main-text-color));
 }
 
-#main-content>.page-tags>span a:is(:hover,:focus) {
+#main-content>.page-tags>span a:is(:hover, :focus) {
 	box-shadow: none;
 	color: rgb(var(--basalt-bright-element-color));
 }
 
-#page-title,.meta-title {
+#page-title,
+.meta-title {
 	border-bottom: none;
-	color: rgba(var(--basalt-main-text-color),.9);
+	color: rgba(var(--basalt-main-text-color), .9);
 }
 
 .fncon:before {
-	color: rgba(0,0,0,.75);
+	color: rgba(0, 0, 0, .75);
 }
 
 .fnnum:hover:after {
@@ -113,16 +120,16 @@
 }
 
 ::selection {
-	background-color: rgba(var(--selection-background-color),.4);
+	background-color: rgba(var(--selection-background-color), .4);
 }
 
 #login-status ul a {
 	background: transparent;
-	color: #d2d2d2!important;
+	color: #d2d2d2 !important;
 }
 
 #search-top-box {
-	display: none!important;
+	display: none !important;
 }
 
 @media (min-width:767px) {
@@ -132,15 +139,18 @@
 }
 
 .buttons {
-	display: inline-block!important;
-	width: auto!important;
+	display: inline-block !important;
+	width: auto !important;
 }
 
 #header h1 a span:after {
-	margin-bottom: 0!important;
-	font-weight: 600!important;
+	margin-bottom: 0 !important;
+	font-weight: 600 !important;
 }
 
-.mobile-top-bar>ul>li>a,.mobile-top-bar>ul>li>ul,.top-bar>ul>li>a,.top-bar>ul>li>ul {
-	margin-left: 5px!important;
+.mobile-top-bar>ul>li>a,
+.mobile-top-bar>ul>li>ul,
+.top-bar>ul>li>a,
+.top-bar>ul>li>ul {
+	margin-left: 5px !important;
 }
