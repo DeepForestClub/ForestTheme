@@ -55,11 +55,6 @@
 	color: transparent !important;
 }
 
-#side-bar .menu-item a[href="/help-center"] {
-	text-align: center;
-	font-weight: 700;
-}
-
 .series-nav {
 	display: flex;
 	margin: 1rem 0;
