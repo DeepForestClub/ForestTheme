@@ -993,6 +993,27 @@ div.page-rate-widget-box .rate-points {
 	font-size: 200%;
 }
 
+/* Disable Special Formatting Of Discussion Boards,by SCP-CN */
+.thread-container .post .content *[style*=position] {
+	position: static !important;
+}
+
+.thread-container .post .content *:not(img)[style*=background] {
+	background-image: none !important;
+}
+
+.thread-container .post .content *[style*=margin] {
+	margin: 0 !important;
+}
+
+.thread-container .post .content *[style*=padding] {
+	padding: 0 !important;
+}
+
+.thread-container .post .content *[style*=line-through] {
+	text-decoration: none !important;
+}
+
 /* Ruby by Nanimono Demonai */
 .ruby,
 ruby {
@@ -1349,36 +1370,6 @@ table {
 	#page-content div.title {
 		word-break: keep-all;
 	}
-}
-
-/* Content Warning for adult content */
-div#u-adult-warning {
-	margin: 0 auto 20px;
-	padding: .5rem 1rem;
-	width: fit-content;
-	border: 3px solid #333;
-	background: #e4e4e4;
-	color: #333;
-	text-align: center;
-	font-weight: bold;
-}
-
-div#u-adult-warning>div#u-adult-header {
-	color: #901;
-	text-shadow: 1px 2px 3px rgba(0, 0, 0, .5);
-	font-size: 300%;
-}
-
-div#u-adult-warning>div#u-adult-header p {
-	margin: 0;
-}
-
-div#u-adult-warning>.error-block {
-	margin: unset;
-	margin-bottom: 1em;
-	padding: unset;
-	border: unset;
-	color: unset;
 }
 
 /* Page preview component -- https://scp-wiki.wikidot.com/component:preview */
