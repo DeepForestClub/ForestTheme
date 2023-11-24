@@ -365,7 +365,7 @@ sup {
 
 /* IE7 HACK */
 #top-bar ul>li>ul {
-	*margin-top: -4px;
+	margin-top: -4px;
 }
 
 /* SIDE MENU */
@@ -1132,6 +1132,7 @@ div.blockquote {
 	margin: 1em;
 	border: 1.2px solid #888;
 	border-radius: 12px;
+	background-color: #fbfbfb;
 }
 
 div.curved {
@@ -1188,8 +1189,8 @@ div.curved {
 */
 
 .emph {
-	text-emphasis-style: dot;
 	-webkit-text-emphasis-style: dot;
+	text-emphasis-style: dot;
 }
 
 /* webkit scrollbar */
