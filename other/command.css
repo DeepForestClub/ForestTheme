@@ -13,7 +13,7 @@
 @import url("https://scp-wiki.wdfiles.com/local--code/component%3Aacs-animation/1");
 
 :root {
-	--logo: url("https://theme.dfc.databasew.top/files/logo.webp") !important;
+	--logo: url("https://themedfc.netlify.app/files/logo.webp") !important;
 	--title: "深林文学部管理组" !important;
 	--subtitle-size: 0rem !important;
 	--title-size: 1.3rem !important;
