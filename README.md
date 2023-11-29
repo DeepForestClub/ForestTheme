@@ -7,7 +7,7 @@
 
 在编辑或拉取到分支时，CSS将被会部署到GitHub Pages，在操作完成后，CSS即可以在深林文学部使用。 
 
-在 `https://theme.dfc.databasew.top/` 域名进行中国镜内加速使用，也可以在 `https://themedfc.netlify.app/` 使用。
+可以在 `https://themedfc.netlify.app/` 使用，原中国镜内加速使用 `https://theme.dfc.databasew.top/` 域名目前在部分地区无法使用。
 
 ## 许可信息
 
