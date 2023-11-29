@@ -119,7 +119,7 @@ body {
 }
 
 div#container-wrap {
-	background: url('https://theme.dfc.databasew.top/files/body_bg.webp') top left repeat-x;
+	background: url('https://themedfc.netlify.app/files/body_bg.webp') top left repeat-x;
 }
 
 td.name {
@@ -144,7 +144,7 @@ sup {
 	padding-bottom: 22px;
 	/* FOR MENU */
 	height: 140px;
-	background: url('https://theme.dfc.databasew.top/files/logo.webp') 10px 40px no-repeat;
+	background: url('https://themedfc.netlify.app/files/logo.webp') 10px 40px no-repeat;
 	background-size: 100px 100px;
 }
 
