@@ -1132,7 +1132,7 @@ div.blockquote {
 	margin: 1em;
 	border: 1.2px solid #888;
 	border-radius: 12px;
-	background-color: #fbfbfb;
+	background-color: transparent;
 }
 
 div.curved {
