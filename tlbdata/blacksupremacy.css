@@ -77,13 +77,13 @@ Black Supremacy
 	--button-current-background: var(--primary-background);
 
 	/* Header Icon */
-	--header-icon: url(https://themedfc.netlify.app/BlackSupremacy/img/tlb-logo.webp);
+	--header-icon: url(https://themedfc.netlify.app/tlbdata/img/tlb-logo.webp);
 	--header-icon-adv: left 1.2em top 1rem no-repeat;
 	--header-icon-size: auto calc(9.5rem - 2.125rem);
 
 	/* Header Background */
 	--header-background: url(https://
-themedfc.netlify.app/BlackSupremacy/img/darkHeader3.webp);
+themedfc.netlify.app/tlbdata/img/darkHeader3.webp);
 
 	/* Set to hidden to enable custom text */
 	--header-text-visibility: visible;
