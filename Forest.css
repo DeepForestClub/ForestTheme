@@ -1021,14 +1021,15 @@ div.page-rate-widget-box .rate-points {
     background: #424242;
     padding: 5px 5px 5px 5px;
     border-radius: 4px;
-    margin: -0.5rem 0 1rem 0;
+    margin: -0.5rem 0 0.5rem 0;
     display: block;
     width: fit-content;
     padding-right: 25px;
 }
 
 .infoblock::before {
-    content: "ⓘ "
+    content: "ⓘ ";
+    font-weight: bold;
 }
 
 /* Ruby by Nanimono Demonai */
