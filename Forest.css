@@ -157,6 +157,7 @@ sup {
 }
 
 #search-top-box-input {
+	padding: 1px 2px;
 	border: solid 1px #999;
 	border-radius: 5px;
 	background-color: #030;
@@ -1016,20 +1017,20 @@ div.page-rate-widget-box .rate-points {
 
 /* Infoblock by Eltrac */
 .infoblock {
-    color: #f1f1f1;
-    font-weight: bold;
-    background: #424242;
-    padding: 5px 5px 5px 5px;
-    border-radius: 4px;
-    margin: -0.5rem 0 0.5rem 0;
-    display: block;
-    width: fit-content;
-    padding-right: 25px;
+	color: #f1f1f1;
+	font-weight: bold;
+	background: #424242;
+	padding: 5px 5px 5px 5px;
+	border-radius: 4px;
+	margin: -0.5rem 0 0.5rem 0;
+	display: block;
+	width: fit-content;
+	padding-right: 25px;
 }
 
 .infoblock::before {
-    content: "ⓘ ";
-    font-weight: bold;
+	content: "ⓘ ";
+	font-weight: bold;
 }
 
 /* Ruby by Nanimono Demonai */
