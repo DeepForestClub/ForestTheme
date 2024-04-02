@@ -13,9 +13,9 @@
 
 > * 版式 森林 - 【2023 Wikidot Theme】
 >   * [hatoyama-kumiko](http://www.wikidot.com/user:info/hatoyama-kumiko)为适配深林文学部而修改图案和Logo
->   * [lest-day](http://www.wikidot.com/user:info/lest-day)为适配深林文学部而删增、编辑代码内容
+>   * [lestday233](http://www.wikidot.com/user:info/lestday233)为适配深林文学部而删增、编辑代码内容
 >   * 适用于CC BY-SA 3.0授权协议
 > * 改自 SCP Sigma 9 - 【2014 Wikidot Theme】
->   * [Aelanna](http://www.wikidot.com/user:info/lest-day)为SCP基金会创建
+>   * [Aelanna](http://www.wikidot.com/user:info/Aelanna)为SCP基金会创建
 >   * [Dr.Devan](http://www.wikidot.com/user:info/Dr-Devan)为SCP基金会编辑
 >   * 适用于CC BY-SA 3.0授权协议
