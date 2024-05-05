@@ -148,3 +148,7 @@
 .top-bar>ul>li>ul {
 	margin-left: 5px !important;
 }
+
+.form-value {
+	width: 90%;
+}
