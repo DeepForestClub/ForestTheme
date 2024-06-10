@@ -6,6 +6,15 @@ body {
 	color: #aaa;
 }
 
+#page-title,
+h1 {
+	color: #04b704;
+}
+
+a {
+	color: #02c102;
+}
+
 #search-top-box-form input[type=submit] {
 	background-color: #438043 !important;
 }
@@ -38,7 +47,7 @@ body {
 }
 
 #side-bar .heading {
-	color: #207e25;
+	color: #0db916;
 }
 
 @media (max-width: 767px) {
