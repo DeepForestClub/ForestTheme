@@ -56,6 +56,10 @@ a {
 	}
 }
 
+#license-area {
+	color: #bcbcbc;
+}
+
 .thread-container .post .head {
 	background-color: #000;
 	background-image: linear-gradient(90deg, #2f2e2e, #3c3b3b);
