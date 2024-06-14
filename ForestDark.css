@@ -115,6 +115,10 @@ div.blockquote {
 	background-color: #3e3e3e;
 }
 
+.owindow .button-bar a {
+	background-color: #282828;
+}
+
 .preview-message {
 	background-color: #4d1010 !important;
 }
@@ -195,4 +199,8 @@ textarea {
 
 .userinfo-icon {
 	box-shadow: none !important;
+}
+
+.item {
+	background-color: #1c1c1c
 }
