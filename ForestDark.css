@@ -119,6 +119,10 @@ div.blockquote {
 	background-color: #282828;
 }
 
+.owindow .button-bar a:hover {
+	background-color: #3f3f3f;
+}
+
 .preview-message {
 	background-color: #4d1010 !important;
 }
