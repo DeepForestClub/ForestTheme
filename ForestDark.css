@@ -169,20 +169,12 @@ textarea {
 }
 
 .cooperation-box,
-.cooperation-box>.collapsible-block .collapsible-block-link {
+.cooperation-box .collapsible-block .collapsible-block-link {
 	background-color: #313131 !important;
 }
 
-.cooperation-box>.collapsible-block .collapsible-block-underdiv p {
+.cooperation-box .collapsible-block .collapsible-block-underdiv p {
 	color: #d3d2d2;
-}
-
-.cooperation-box .tlb-blacklogo {
-	display: none !important;
-}
-
-.cooperation-box .tlb-whitelogo {
-	display: block !important;
 }
 
 .content-box,
