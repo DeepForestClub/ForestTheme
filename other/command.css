@@ -106,6 +106,7 @@
 }
 
 .forum-group table tr.head td,
+.forum-category-box table tr.head td,
 .forum-category-box .description-block,
 div.new-post a {
 	background: #1f1f1f;
