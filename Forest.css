@@ -1030,7 +1030,6 @@ div.page-rate-widget-box .rate-points {
 
 .infoblock::before {
 	content: "ⓘ ";
-	font-weight: bold;
 }
 
 /* Ruby by Nanimono Demonai */
