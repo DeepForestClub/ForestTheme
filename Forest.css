@@ -1024,12 +1024,12 @@ div.page-rate-widget-box .rate-points {
 	border-radius: 4px;
 	margin: -0.5rem 0 0.5rem 0;
 	display: block;
-	width: fit-content;
 	padding-right: 25px;
 }
 
 .infoblock::before {
 	content: "ⓘ ";
+	font-size: 1rem;
 }
 
 /* Ruby by Nanimono Demonai */
