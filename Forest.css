@@ -978,7 +978,8 @@ div.page-rate-widget-box .rate-points {
 }
 
 /* Limit Forum H1 and H2,by lest-day */
-.post-container>.post>.long>.content>h1 .thread-container>.post>.long>.content>h1 {
+.post-container>.post>.long>.content h1,
+.thread-container>.post>.long>.content h1 {
 	margin: 0.5em 0 0.4em;
 	padding: 0;
 	letter-spacing: 1px;
@@ -986,7 +987,8 @@ div.page-rate-widget-box .rate-points {
 	font-size: 185%;
 }
 
-.post-container>.post>.long>.content>h2 .thread-container>.post>.long>.content>h2 {
+.post-container>.post>.long>.content h2,
+.thread-container>.post>.long>.content h2 {
 	margin: 0.5em 0 0.4em;
 	padding: 0;
 	letter-spacing: 1px;
