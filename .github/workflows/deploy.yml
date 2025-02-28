@@ -2,7 +2,7 @@ name: Deploy to Github Pages
 on:
   release:
     types: [published]
-    branches: [cn]
+    branches: [master]
 jobs:
   deploy-gh-pages:
     runs-on: ubuntu-latest
