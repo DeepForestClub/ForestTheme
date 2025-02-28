@@ -24,4 +24,4 @@ jobs:
         with:
           branch: gh-pages
           folder: dist
-          target-folder: cn
+          target-folder: latest
