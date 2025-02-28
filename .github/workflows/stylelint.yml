@@ -1,10 +1,9 @@
-name: StyleLint
-
 on:
   push:
     paths:
       - '*.css'
-      - '.github/workflows/stylelint.yml'
+
+name: Stylelint
 
 jobs:
   lint:
@@ -12,14 +11,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v1
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Stylelint
-        run: npm run stylelint
-
-      - name: Prettier
-        run: npm run prettier
+      - uses: actions/checkout@v1
+      - uses: actions-hub/stylelint@master
