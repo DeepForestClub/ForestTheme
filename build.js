@@ -34,7 +34,7 @@ async function exists(path) {
 !(async ()=>{
   await fs.rm("dist", { recursive: true, force: true });
   await fs.mkdir("dist/");
-  for (const frame of ["cn", "fonts", "img", "modules", "sigma9.css"]) {
+  for (const frame of ["files", "other", "tlbdata", "css"]) {
     await copy(frame, "dist/" + frame);
   }
 })()。catch(e=>console.log(e))
