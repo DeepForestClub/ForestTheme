@@ -8,7 +8,7 @@ rules:
 
   rule-empty-line-before:
     - always
-    - except: ['after-single-line-comment'， 'first-nested']
+    - except: ['after-single-line-comment', 'first-nested']
 
   import-notation: url
   selector-type-case: lower
@@ -24,7 +24,7 @@ rules:
     - except: ['first-nested']
 
   comment-whitespace-inside: always
-  comment-word-disallowed-list: ['TODO'， 'FIXME']
+  comment-word-disallowed-list: ['TODO', 'FIXME']
 
   # Remove these rules eventually, see https://scuttle.atlassian.net/browse/TT-56
   property-no-vendor-prefix: null
