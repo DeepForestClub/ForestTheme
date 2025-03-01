@@ -8,7 +8,7 @@ set -eu
 mkdir -p dist
 
 # Copy fonts and images
-cp -a tlbdata other images dist
+cp -a tlbdata others images dist
 
 # Copy and minify CSS
 mkdir -p dist/css
