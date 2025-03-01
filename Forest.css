@@ -12,6 +12,7 @@
 */
 
 @charset "utf-8";
+
 @import url('https://fonts.googleapis.cn/css2?family=Nanum+Gothic:wght@400;700');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
 
@@ -148,7 +149,6 @@ sup {
 	position: relative;
 	z-index: 10;
 	padding-bottom: 22px;
-	/* FOR MENU */
 	height: 140px;
 	background: url('https://themedfc.pages.dev/images/logo.webp') 10px 40px no-repeat;
 	background-size: 100px 100px;
@@ -190,8 +190,8 @@ sup {
 	border: 1.2px solid #d9d9d9;
 }
 
-#search-top-box-form input[type=submit]:hover,
-#search-top-box-form input[type=submit]:focus {
+#search-top-box-form input[type="submit"]:hover,
+#search-top-box-form input[type="submit"]:focus {
 	border: solid 1px #fff;
 	background: linear-gradient(to bottom, #9c9, #696, #363);
 	background-color: #007f00;
@@ -305,7 +305,7 @@ sup {
 #top-bar ul li ul {
 	width: auto;
 	border: solid 1px #666;
-	border-width: 0 1px 1px 1px;
+	border-width: 0 1px 1px;
 	box-shadow: 0 1px 4px rgba(0, 0, 0, .5);
 }
 
@@ -395,7 +395,7 @@ sup {
 	padding: 10px;
 	padding-bottom: 1em;
 	border: 1px solid #600;
-	border: solid 1px #999999;
+	border: solid 1px #999;
 	border-radius: 10px;
 	border-radius: 8px;
 	background: #fff;
@@ -442,7 +442,8 @@ sup {
 
 #side-bar .menu-item.small {
 	font-size: 90%;
-	/* For sidebar item with smaller text*/
+
+	/* For sidebar item with smaller text */
 }
 
 #side-bar .menu-item img {
@@ -607,6 +608,7 @@ sup {
 .yui-navset .yui-nav .selected a:hover {
 	/* no hover effect for selected */
 	background: #080;
+
 	/* selected tab background */
 	color: #fff;
 }
@@ -629,8 +631,7 @@ sup {
 /* EDITOR TOOLBAR PANEL */
 .wd-editor-toolbar-panel>div>ul {
 	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
+	flex-flow: row wrap;
 }
 
 /* FOOTER */
@@ -1003,23 +1004,23 @@ div.page-rate-widget-box .rate-points {
 }
 
 /* Disable Special Formatting Of Discussion Boards,by SCP-CN */
-.thread-container .post .content *[style*=position] {
+.thread-container .post .content *[style*="position"] {
 	position: static !important;
 }
 
-.thread-container .post .content *:not(img)[style*=background] {
+.thread-container .post .content *:not(img)[style*="background"] {
 	background-image: none !important;
 }
 
-.thread-container .post .content *[style*=margin] {
+.thread-container .post .content *[style*="margin"] {
 	margin: 0 !important;
 }
 
-.thread-container .post .content *[style*=padding] {
+.thread-container .post .content *[style*="padding"] {
 	padding: 0 !important;
 }
 
-.thread-container .post .content *[style*=line-through] {
+.thread-container .post .content *[style*="line-through"] {
 	text-decoration: none !important;
 }
 
@@ -1028,9 +1029,9 @@ div.page-rate-widget-box .rate-points {
 	color: #f1f1f1;
 	font-weight: bold;
 	background: #424242;
-	padding: 5px 5px 5px 5px;
+	padding: 5px;
 	border-radius: 4px;
-	margin: -0.5rem 0 0.5rem 0;
+	margin: -0.5rem 0 0.5rem;
 	display: block;
 	padding-right: 25px;
 }
@@ -1222,8 +1223,10 @@ div.curved {
 /* webkit scrollbar */
 ::-webkit-scrollbar {
 	width: 9px;
+
 	/* for vertical scrollbars */
 	height: 9px;
+
 	/* for horizontal scrollbars */
 	border: solid 1px rgba(0, 0, 0, .1);
 }
