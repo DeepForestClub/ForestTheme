@@ -97,12 +97,6 @@ a.newpage {
 	width: 95%;
 }
 
-#page-content *,
-#side-bar *,
-#top-bar * {
-	visibility: !important;
-}
-
 /* GLOBAL WIDTH */
 #header,
 #top-bar {
