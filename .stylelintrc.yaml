@@ -105,5 +105,5 @@ rules:
   at-rule-no-vendor-prefix: null
 
   # Disable this rule for now, it produces hundreds of incidents
-  # and would require significant refactoring to resolve.
+  # 和 would require significant refactoring to resolve.
   no-descending-specificity: null
