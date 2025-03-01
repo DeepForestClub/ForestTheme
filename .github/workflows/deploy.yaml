@@ -25,6 +25,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Set env
+        run: echo "RELEASE_VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
+
       - name: Build
         run: ./build.sh
 
@@ -33,6 +36,9 @@ jobs:
         with:
           path: dist/
 
-      - name: Deploy (GitHub Pages)
-        uses: actions/deploy-pages@v4
-        id: deployment
+      - name: Deploy main
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: dist
+          target-folder: /
