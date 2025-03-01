@@ -25,6 +25,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Set permissions for build script
+        run: chmod +x ./build.sh
+
       - name: Build
         run: ./build.sh
 
