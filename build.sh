@@ -7,8 +7,12 @@ set -eu
 # Create directory structure
 mkdir -p dist
 
-# Copy fonts and images
-cp -a tlbdata others images dist
+# Copy images, html and others
+cp -a tlbdata others html images dist
+
+# Move html files
+mv dist/html/* dist/
+rm -r dist/html
 
 # Copy and minify CSS
 mkdir -p dist/css
