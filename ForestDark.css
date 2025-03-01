@@ -73,8 +73,8 @@ a {
 	color: #aaa;
 }
 
-.forum-category-box table > tbody > .head,
-.forum-group div > table > tbody > .head {
+.forum-category-box table>tbody>.head,
+.forum-group div>table>tbody>.head {
 	color: #666 !important;
 }
 
