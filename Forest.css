@@ -96,6 +96,12 @@ a.newpage {
 	width: 95%;
 }
 
+#page-content *,
+#side-bar *,
+#top-bar * {
+	visibility: !important
+}
+
 /* GLOBAL WIDTH */
 #header,
 #top-bar {
@@ -119,7 +125,7 @@ body {
 }
 
 div#container-wrap {
-	background: url('https://themedfc.pages.dev/files/body_bg.webp') top left repeat-x;
+	background: url('https://themedfc.pages.dev/images/body_bg.webp') top left repeat-x;
 }
 
 td.name {
@@ -144,7 +150,7 @@ sup {
 	padding-bottom: 22px;
 	/* FOR MENU */
 	height: 140px;
-	background: url('https://themedfc.pages.dev/files/logo.webp') 10px 40px no-repeat;
+	background: url('https://themedfc.pages.dev/images/logo.webp') 10px 40px no-repeat;
 	background-size: 100px 100px;
 }
 
