@@ -163,6 +163,7 @@ sup {
 }
 
 #search-top-box-input {
+	display: none;
 	padding: 1px 2px;
 	border: solid 1px #999;
 	border-radius: 5px;
@@ -198,10 +199,6 @@ sup {
 	box-shadow: 0 1px 3px rgba(0, 0, 0, .8);
 	color: #fff;
 	text-shadow: 0 0 1px rgba(255, 255, 255, .25);
-}
-
-#search-top-box-input {
-	display: none;
 }
 
 #login-status {
@@ -1168,7 +1165,6 @@ div.curved {
 }
 
 @media (max-width: 479px) {
-
 	blockquote,
 	div.blockquote,
 	div.curved {
@@ -1177,7 +1173,6 @@ div.curved {
 }
 
 @media (min-width: 480px) and (max-width: 580px) {
-
 	blockquote,
 	div.blockquote,
 	div.curved {
