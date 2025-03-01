@@ -12,6 +12,7 @@ cp -a tlbdata others images dist
 
 # Copy and minify CSS
 mkdir -p dist/css
-cp Forest.css dist/css
+cp Forest.css ForestDark.css dist/css
 npm run minify
 [[ -f dist/css/Forest.min.css ]]
+[[ -f dist/css/ForestDark.min.css ]]

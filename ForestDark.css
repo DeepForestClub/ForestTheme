@@ -1,4 +1,5 @@
 @charset "utf-8";
+
 @import url('https://themedfc.pages.dev/Forest.min.css');
 
 body {
@@ -15,11 +16,11 @@ a {
 	color: #02c102;
 }
 
-#search-top-box-form input[type=submit] {
+#search-top-box-form input[type='submit'] {
 	background-color: #438043 !important;
 }
 
-@media (max-width:767px) {
+@media (max-width: 767px) {
 	#top-bar .open-menu a {
 		color: #888 !important;
 	}
@@ -27,13 +28,13 @@ a {
 
 #top-bar ul li.sfhover a,
 #top-bar ul li:hover a {
-	border-top: .25px solid #ddd;
+	border-top: 0.25px solid #ddd;
 	background: #2a2a2a;
 }
 
 #top-bar ul li.sfhover a:hover,
 #top-bar ul li:hover a:hover {
-	border-top: .2px solid #ddd;
+	border-top: 0.2px solid #ddd;
 	background: #252525;
 }
 
@@ -63,7 +64,7 @@ a {
 .thread-container .post .head {
 	background-color: #000;
 	background-image: linear-gradient(90deg, #2f2e2e, #3c3b3b);
-	box-shadow: inset 2px 3px 6px rgba(24, 24, 24, .15);
+	box-shadow: inset 2px 3px 6px rgba(24, 24, 24, 0.15);
 }
 
 .forum-thread-box .description-block,
@@ -72,8 +73,8 @@ a {
 	color: #aaa;
 }
 
-.forum-category-box table>tbody>.head,
-.forum-group div>table>tbody>.head {
+.forum-category-box table > tbody > .head,
+.forum-group div > table > tbody > .head {
 	color: #666 !important;
 }
 
@@ -197,5 +198,5 @@ textarea {
 }
 
 .item {
-	background-color: #1c1c1c
+	background-color: #1c1c1c;
 }

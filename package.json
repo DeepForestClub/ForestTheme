@@ -18,10 +18,10 @@
   "scripts": {
     "build": "./build.sh",
     "clean": "rm -rf dist",
-    "minify": "minify Forest.css > dist/css/Forest.min.css",
-    "stylelint": "stylelint Forest.css",
-    "stylelint:fix": "stylelint --fix Forest.css",
-    "prettier": "prettier -c Forest.css",
-    "prettier:fix": "prettier -w Forest.css"
+    "minify": "minify Forest.css ForestDark.css > dist/css/Forest.min.css",
+    "stylelint": "stylelint Forest.css ForestDark.css",
+    "stylelint:fix": "stylelint --fix Forest.css ForestDark.css",
+    "prettier": "prettier -c Forest.css ForestDark.css",
+    "prettier:fix": "prettier -w Forest.css ForestDark.css"
   }
 }
