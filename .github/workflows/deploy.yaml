@@ -28,6 +28,9 @@ jobs:
       - name: Set env
         run: echo "RELEASE_VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
 
+      - name: Set permissions for build script
+        run: chmod +x ./build.sh
+
       - name: Build
         run: ./build.sh
 
