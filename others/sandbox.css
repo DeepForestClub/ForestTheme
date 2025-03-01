@@ -1,0 +1,24 @@
+@charset "utf-8";
+@import url("https://themedfc.pages.dev/Forest.min.css");
+
+#header {
+	background: url('') !important;
+}
+
+#header h1,
+#header h2 {
+	margin-left: 5px !important;
+}
+
+div#container-wrap {
+	background-image: url(https://themedfc.pages.dev/files/sandbox-body_bg.webp);
+	background-repeat: repeat-x;
+}
+
+#header {
+	background-repeat: no-repeat;
+}
+
+#search-top-box {
+	display: none;
+}
