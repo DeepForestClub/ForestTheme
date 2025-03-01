@@ -5,9 +5,6 @@ on:
     branches:
       - master
 
-env:
-  BUCKET_PATH: theme/forest
-
 jobs:
   build-and-deploy:
     name: Deploy CSS
@@ -27,6 +24,9 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+
+      - name: Make build.sh executable
+        run: chmod +x ./build.sh
 
       - name: Build
         run: ./build.sh
