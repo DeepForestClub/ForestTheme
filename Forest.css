@@ -380,7 +380,6 @@ sup {
 	width: 17em;
 	border: none;
 	overscroll-behavior: none;
-	*overflow: hidden;
 }
 
 #side-bar .side-block {
