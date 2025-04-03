@@ -10,7 +10,8 @@
 ## 许可信息
 
 > * 版式 黑色至上 - 【2020 Wikidot Theme】
->   * 时间轴书店现目前使用 Vizlox 设计的 Black Supremacy 主题。
->   * 此主题由 eastleavecn 与 lestday233 移植到时间轴书店并修改以适配。
->   * 此主题的背景由 Logangreenjeans 设计，图标由 Dr Atomy 设计（CC 0）。
->   * 均适用于CC BY-SA 3.0授权协议
+>   * [Vizlox](http://www.wikidot.com/user:info/vizlox)为RPC管理局设计的 Black Supremacy 主题。
+>     * [Logangreenjeans](http://www.wikidot.com/user:info/logangreenjeans)为RPC管理局设计主题背景图片
+>   * [eastleavecn](http://www.wikidot.com/user:info/eastleavecn)与[lestday233](http://www.wikidot.com/user:info/lestday233)移植到时间轴书店并修改以适配。
+>     *  [Dr Atomy](http://www.wikidot.com/user:info/dr-atomy)为时间轴书店设计主题图标（CC 0）。
+>   * 除非另有说明，负责均适用于CC BY-SA 3.0授权协议
