@@ -16,7 +16,9 @@ rm -r dist/pages
 
 # Copy and minify CSS
 mkdir -p dist/css
-cp Forest.css ForestDark.css dist/css
+cp Forest.css ForestDark.css tlbdata/blackaupremacy.css dist/css
 npm run minify
 [[ -f dist/css/Forest.min.css ]]
 [[ -f dist/css/ForestDark.min.css ]]
+[[ -f dist/css/blackaupremacy.min.css ]]
+mv dist/css/blackaupremacy.min.css tlbdata
