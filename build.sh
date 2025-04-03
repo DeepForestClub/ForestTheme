@@ -8,11 +8,11 @@ set -eu
 mkdir -p dist
 
 # Copy images, html and others
-cp -a tlbdata others html images dist
+cp -a tlbdata others pages images dist
 
-# Move html files
-mv dist/html/* dist/
-rm -r dist/html
+# Move Html files
+mv dist/pages/* dist/
+rm -r dist/pages
 
 # Copy and minify CSS
 mkdir -p dist/css
