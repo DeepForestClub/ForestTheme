@@ -5,7 +5,7 @@
   
 这是**森林Forest**版式主题的Github存储库。是用于[深林文学部](https://deep-forest-club.wikidot.com/)的默认CSS。目前由深林文学部技术组维护。
 
-在编辑或拉取到分支时，CSS将被会部署到GitHub Pages，在操作完成后，CSS即可以在深林文学部使用。 
+在编辑或拉取到分支时，CSS将被会部署到Cloudflare Pages，在操作完成后，CSS即可以在深林文学部使用。 
 
 目前深林文学部主要是在 `https://themedfc.pages.dev/` 使用，而原中国镜内加速使用 `https://themedfc.netlify.app/` 等域名目前在部分地区已经无法使用。
 
