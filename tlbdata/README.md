@@ -4,7 +4,7 @@
   
 这是**黑色至上Black Supremacy**版式主题的Github分支库。是用于[深林文学部](https://deep-forest-club.wikidot.com/)的附属网站[时间轴书店](https://timeline-bookstore.wikidot.com/)默认CSS。目前由深林文学部技术组维护。
 
-在编辑或拉取到分支时，CSS将被会部署到GitHub Pages，在操作完成后，CSS即可以在时间轴书店使用。 
+在编辑或拉取到分支时，CSS将被会部署到Cloudflare Pages，在操作完成后，CSS即可以在时间轴书店使用。 
 
 
 ## 许可信息
