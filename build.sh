@@ -7,10 +7,10 @@ set -eu
 # Create directory structure
 mkdir -p dist
 
-# Copy images, html and others
+# Copy images, tlbdata, html and others
 cp -a tlbdata others pages images dist
 
-# Move Html files
+# Move html files
 mv dist/pages/* dist/
 rm -r dist/pages
 
