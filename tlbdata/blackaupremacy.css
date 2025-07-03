@@ -273,15 +273,15 @@
 	--sidenote-figure-closed-color: var(--text-color);
 
 	/* Variables Specific to Black Theme */
-	--bt-open-themes-border: 2px solid #aaa;
-	--bt-open-themes-background: #fff;
-	--bt-open-themes-color: #000;
-	--bt-open-themes-hover-color: #07f;
-	--bt-open-themes-hover-border: solid 2px #5295e1;
-	--bt-scrollbar-background: var(--primary-background);
-	--bt-scrollbar-thumb-background: #273b5a;
-	--bt-scrollbar-thumb-hover-background: #283649;
-	--bt-resizer-background: #191919;
+	--BT-open-themes-border: 2px solid #aaa;
+	--BT-open-themes-background: #fff;
+	--BT-open-themes-color: #000;
+	--BT-open-themes-hover-color: #07f;
+	--BT-open-themes-hover-border: solid 2px #5295e1;
+	--BT-scrollbar-background: var(--primary-background);
+	--BT-scrollbar-thumb-background: #273b5a;
+	--BT-scrollbar-thumb-hover-background: #283649;
+	--BT-resizer-background: #191919;
 }
 
 /* Sidebar */
