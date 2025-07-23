@@ -178,6 +178,14 @@ textarea {
 	color: #d3d2d2;
 }
 
+.cooperation-box .tlb-blacklogo {
+ display: none !important;
+}
+
+.cooperation-box .tlb-whitelogo {
+ display: block !important;
+}
+
 .content-box,
 .content-type-description .wiki-content-table tr {
 	background-color: #1c1c1c !important;
