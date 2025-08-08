@@ -5,6 +5,7 @@ extends: stylelint-config-standard
 rules:
   max-nesting-depth: 2
   no-unknown-animations: true
+  selector-class-pattern: "^[a-z]([a-z0-9]*[-_]?[a-z0-9]+)*$"
 
   rule-empty-line-before:
     - always
