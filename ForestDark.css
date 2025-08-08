@@ -186,6 +186,10 @@ textarea {
  display: block !important;
 }
 
+.c_cooperation-box.invert a img {
+	filter: invert(100%);
+}
+
 .content-box,
 .content-type-description .wiki-content-table tr {
 	background-color: #1c1c1c !important;
