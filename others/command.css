@@ -167,6 +167,7 @@ div.new-post a {
 }
 
 .forum-category-box .description-block,
+.forum-category-box table,
 div.new-post a {
 	border: solid var(--blockquote-border-width) rgb(var(--blockquote-border-color));
 }
