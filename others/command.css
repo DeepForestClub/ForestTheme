@@ -105,13 +105,6 @@
 	color: rgba(var(--basalt-main-text-color), .9);
 }
 
-.forum-group table tr.head td,
-.forum-category-box table tr.head td,
-.forum-category-box .description-block,
-div.new-post a {
-	background: #1f1f1f;
-}
-
 .fncon:before {
 	color: rgba(0, 0, 0, .75);
 }
@@ -159,4 +152,23 @@ div.new-post a {
 #edit-page-title,
 .form-control {
 	width: 95% !important;
+}
+
+.forum-group table tr.head td,
+.forum-category-box table tr.head td,
+.forum-category-box .description-block,
+div.new-post a {
+	background: #1f1f1f;
+}
+
+.forum-group  table td.last{
+	width: 10em;
+}
+
+.forum-group  table td.posts{
+	width: 3em;
+}
+
+.forum-group  table td.threads{
+	width: 3em;
 }
