@@ -159,12 +159,16 @@
 .forum-category-box .description-block,
 div.new-post a {
 	background: #1f1f1f;
-	border: unset;
 }
 
 .forum-category-box .description-block statistics,
 div.new-post a {
 	color: rgb(var(--basalt-main-text-color));
+}
+
+.forum-category-box .description-block,
+div.new-post a {
+	border: solid var(--blockquote-border-width) rgb(var(--blockquote-border-color));
 }
 
 .forum-group div.head {
