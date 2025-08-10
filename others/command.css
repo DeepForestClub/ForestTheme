@@ -172,3 +172,7 @@ div.new-post a {
 .forum-group  table td.threads{
 	width: 3em;
 }
+
+.forum-category-box table td.name {
+	min-width: 8em;
+}
