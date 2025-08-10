@@ -161,6 +161,11 @@ div.new-post a {
 	background: #1f1f1f;
 }
 
+.forum-group div.head {
+    background-color: #313131;
+    color: rgb(var(--basalt-main-text-color));
+}
+
 .forum-group  table td.last{
 	width: 10em;
 }
