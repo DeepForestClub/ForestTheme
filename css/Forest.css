@@ -938,7 +938,10 @@ div.page-rate-widget-box .rate-points {
 }
 
 /* Remove the white border of the avatar from the user info,by BackroomsCN */
-#odialog-container .owindow > div.modal-body > img[style*='padding: 2px 8px;']:first-child {
+#odialog-container
+	.owindow
+	> div.modal-body
+	> img[style*='padding: 2px 8px;']:first-child {
 	background-color: initial !important;
 }
 
@@ -970,7 +973,11 @@ div.page-rate-widget-box .rate-points {
 	object-fit: cover;
 }
 
-.thread-container .post .long .content .image:hover:not(.collapsible-block .image) {
+.thread-container
+	.post
+	.long
+	.content
+	.image:hover:not(.collapsible-block .image) {
 	max-height: 100em;
 }
 
@@ -981,16 +988,19 @@ div.page-rate-widget-box .rate-points {
 }
 
 /* Disable Special Formatting Of Discussion Boards,by SCP-CN */
-.thread-container .post .content *[style*=position] {
+.thread-container .post .content *[style*='position'] {
 	position: static !important;
 }
-.thread-container .post .content *:not(img)[style*=background] {
+
+.thread-container .post .content *:not(img)[style*='background'] {
 	background-image: none !important;
 }
-.thread-container .post .content *[style*=margin] {
+
+.thread-container .post .content *[style*='margin'] {
 	margin: 0 !important;
 }
-.thread-container .post .content *[style*=padding] {
+
+.thread-container .post .content *[style*='padding'] {
 	padding: 0 !important;
 }
 
@@ -1159,14 +1169,14 @@ div.styled-quote {
 	border-left: 8px solid #007f00;
 	padding: 0.1rem 1rem;
 	margin: 0.5rem 0 0.5rem 0.25rem;
-	box-shadow: rgba(25, 20, 16, 0.25) 0.5px 0.6px 2.8px 0px;
+	box-shadow: rgba(25, 20, 16, 0.25) 0.5px 0.6px 2.8px 0;
 }
 
 div.purecolor-block {
 	background-color: #f9f9f9;
 	padding: 0.1rem 1rem;
 	margin: 0.5rem 0 0.5rem 0.25rem;
-	box-shadow: rgba(25, 20, 16, 0.25) 0.1px 0.4px 4.8px 0px;
+	box-shadow: rgba(25, 20, 16, 0.25) 0.1px 0.4px 4.8px 0;
 }
 
 /* Fix revision list */
