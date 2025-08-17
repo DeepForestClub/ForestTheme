@@ -93,11 +93,6 @@ div.blockquote {
 	background-color: transparent;
 }
 
-div.styled-quote,
-div.purecolor-block {
-	background-color: #313131;
-}
-
 .yui-navset .yui-content,
 .code {
 	background-color: #272727;
