@@ -73,8 +73,8 @@ a {
 	color: #aaa;
 }
 
-.forum-category-box table>tbody>.head,
-.forum-group div>table>tbody>.head {
+.forum-category-box table > tbody > .head,
+.forum-group div > table > tbody > .head {
 	color: #666 !important;
 }
 
@@ -91,6 +91,11 @@ div.new-post a {
 blockquote,
 div.blockquote {
 	background-color: transparent;
+}
+
+div.styled-quote,
+div.purecolor-block {
+	background-color: #313131;
 }
 
 .yui-navset .yui-content,
