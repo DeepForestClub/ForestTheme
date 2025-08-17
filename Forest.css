@@ -994,24 +994,17 @@ div.page-rate-widget-box .rate-points {
 }
 
 /* Disable Special Formatting Of Discussion Boards,by SCP-CN */
-.thread-container .post .content *[style*='position'] {
+.thread-container .post .content *[style*=position] {
 	position: static !important;
 }
-
-.thread-container .post .content *:not(img)[style*='background'] {
+.thread-container .post .content *:not(img)[style*=background] {
 	background-image: none !important;
 }
-
-.thread-container .post .content *[style*='margin'] {
+.thread-container .post .content *[style*=margin] {
 	margin: 0 !important;
 }
-
-.thread-container .post .content *[style*='padding'] {
+.thread-container .post .content *[style*=padding] {
 	padding: 0 !important;
-}
-
-.thread-container .post .content *[style*='line-through'] {
-	text-decoration: none !important;
 }
 
 /* Infoblock by Eltrac */
