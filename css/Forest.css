@@ -981,7 +981,7 @@ div.page-rate-widget-box .rate-points {
 	max-height: 100em;
 }
 
-/* Limit Forum H1 and H2,by lestday233 */
+/* Limit Forum H1 and H2,by lest-day */
 .thread-container .post .content h1,
 .thread-container .post .content h2 {
 	font-size: large !important;
@@ -1161,6 +1161,22 @@ div.curved {
 	div.curved {
 		margin: 0.5em;
 	}
+}
+
+/* Stylequote Mimic Div */
+div.styled-quote {
+	background-color: #f7f7f7;
+	border-left: 8px solid #007f00;
+	padding: 0.1rem 1rem;
+	margin: 0.5rem 0 0.5rem 0.25rem;
+	box-shadow: rgba(25, 20, 16, 0.25) 0.5px 0.6px 2.8px 0;
+}
+
+div.purecolor-block {
+	background-color: #f9f9f9;
+	padding: 0.1rem 1rem;
+	margin: 0.5rem 0 0.5rem 0.25rem;
+	box-shadow: rgba(25, 20, 16, 0.25) 0.1px 0.4px 4.8px 0;
 }
 
 /* Fix revision list */
