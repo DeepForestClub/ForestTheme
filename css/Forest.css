@@ -975,43 +975,23 @@ div.page-rate-widget-box .rate-points {
 }
 
 /* Limit Forum H1 and H2,by lest-day */
-.post-container > .post > .long > .content h1,
-.thread-container > .post > .long > .content h1 {
-	margin: 0.5em 0 0.4em;
-	padding: 0;
-	letter-spacing: 1px;
-	font-weight: bold;
-	font-size: 185%;
-}
-
-.post-container > .post > .long > .content h2,
-.thread-container > .post > .long > .content h2 {
-	margin: 0.5em 0 0.4em;
-	padding: 0;
-	letter-spacing: 1px;
-	font-weight: bold;
-	font-size: 200%;
+.thread-container .post .content h1,
+.thread-container .post .content h2 {
+	font-size: large !important;
 }
 
 /* Disable Special Formatting Of Discussion Boards,by SCP-CN */
-.thread-container .post .content *[style*='position'] {
+.thread-container .post .content *[style*=position] {
 	position: static !important;
 }
-
-.thread-container .post .content *:not(img)[style*='background'] {
+.thread-container .post .content *:not(img)[style*=background] {
 	background-image: none !important;
 }
-
-.thread-container .post .content *[style*='margin'] {
+.thread-container .post .content *[style*=margin] {
 	margin: 0 !important;
 }
-
-.thread-container .post .content *[style*='padding'] {
+.thread-container .post .content *[style*=padding] {
 	padding: 0 !important;
-}
-
-.thread-container .post .content *[style*='line-through'] {
-	text-decoration: none !important;
 }
 
 /* Infoblock by Eltrac */
