@@ -188,7 +188,6 @@ sup {
 #search-top-box-form input[type='submit']:hover,
 #search-top-box-form input[type='submit']:focus {
 	border: solid 1px #fff;
-	background: linear-gradient(to bottom, #9c9, #696, #363);
 	background-color: #007f00;
 	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
 	color: #fff;
