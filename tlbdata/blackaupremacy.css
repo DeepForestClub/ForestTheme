@@ -2006,6 +2006,12 @@ span.error-inline em::after {
 	overflow-wrap: break-word;
 }
 
+/* Adding Forum Lines */
+.post-container .post-container {
+	padding-left: 0.75rem;
+	border-left: 2px solid rgba(0, 0, 0, 0.25);
+}
+
 /* Hide Forum Signatures */
 .signature {
 	display: none !important;
@@ -2025,22 +2031,22 @@ span.error-inline em::after {
 }
 
 /* Resize special content,by BackroomsCN */
-.post-container > .post > .long > .content > img,
-.post-container > .post > .long > .content > embed,
-.post-container > .post > .long > .content > video,
-.post-container > .post > .long > .content > object,
-.post-container > .post > .long > .content > iframe,
-.post-container > .post > .long > .content > table {
+.thread-container > .post > .long > .content > img,
+.thread-container > .post > .long > .content > embed,
+.thread-container > .post > .long > .content > video,
+.thread-container > .post > .long > .content > object,
+.thread-container > .post > .long > .content > iframe,
+.thread-container > .post > .long > .content > table {
 	max-width: 100%;
 }
 
 /* Adjust the vertical alignment of special content,by BackroomsCN */
-.post-container > .post > .long > .content > audio,
-.post-container > .post > .long > .content > canvas,
-.post-container > .post > .long > .content > iframe,
-.post-container > .post > .long > .content > img,
-.post-container > .post > .long > .content > svg,
-.post-container > .post > .long > .content > video {
+.thread-container > .post > .long > .content > audio,
+.thread-container > .post > .long > .content > canvas,
+.thread-container > .post > .long > .content > iframe,
+.thread-container > .post > .long > .content > img,
+.thread-container > .post > .long > .content > svg,
+.thread-container > .post > .long > .content > video {
 	vertical-align: middle;
 }
 
@@ -2060,39 +2066,27 @@ span.error-inline em::after {
 	max-height: 100em;
 }
 
-/* Limit Forum H1 and H2,by lest-day */
-.post-container
-	> .post
-	> .long
-	> .content
-	> h1
-	.thread-container
-	> .post
-	> .long
-	> .content
-	> h1 {
-	margin: 0.5em 0 0.4em;
-	padding: 0;
-	letter-spacing: 1px;
-	font-weight: bold;
-	font-size: 185%;
+/* Limit Forum H1 and H2,by lestday233 */
+.thread-container .post .content h1,
+.thread-container .post .content h2 {
+	font-size: large !important;
 }
 
-.post-container
-	> .post
-	> .long
-	> .content
-	> h2
-	.thread-container
-	> .post
-	> .long
-	> .content
-	> h2 {
-	margin: 0.5em 0 0.4em;
-	padding: 0;
-	letter-spacing: 1px;
-	font-weight: bold;
-	font-size: 200%;
+/* Disable Special Formatting Of Discussion Boards,by SCP-CN */
+.thread-container .post .content *[style*='position'] {
+	position: static !important;
+}
+
+.thread-container .post .content *:not(img)[style*='background'] {
+	background-image: none !important;
+}
+
+.thread-container .post .content *[style*='margin'] {
+	margin: 0 !important;
+}
+
+.thread-container .post .content *[style*='padding'] {
+	padding: 0 !important;
 }
 
 /* Add some spacing below close collapsible links */

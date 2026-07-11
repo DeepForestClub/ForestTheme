@@ -945,22 +945,22 @@ div.page-rate-widget-box .rate-points {
 }
 
 /* Resize special content,by BackroomsCN */
-.post-container > .post > .long > .content > img,
-.post-container > .post > .long > .content > embed,
-.post-container > .post > .long > .content > video,
-.post-container > .post > .long > .content > object,
-.post-container > .post > .long > .content > iframe,
-.post-container > .post > .long > .content > table {
+.thread-container > .post > .long > .content > img,
+.thread-container > .post > .long > .content > embed,
+.thread-container > .post > .long > .content > video,
+.thread-container > .post > .long > .content > object,
+.thread-container > .post > .long > .content > iframe,
+.thread-container > .post > .long > .content > table {
 	max-width: 100%;
 }
 
 /* Adjust the vertical alignment of special content,by BackroomsCN */
-.post-container > .post > .long > .content > audio,
-.post-container > .post > .long > .content > canvas,
-.post-container > .post > .long > .content > iframe,
-.post-container > .post > .long > .content > img,
-.post-container > .post > .long > .content > svg,
-.post-container > .post > .long > .content > video {
+.thread-container > .post > .long > .content > audio,
+.thread-container > .post > .long > .content > canvas,
+.thread-container > .post > .long > .content > iframe,
+.thread-container > .post > .long > .content > img,
+.thread-container > .post > .long > .content > svg,
+.thread-container > .post > .long > .content > video {
 	vertical-align: middle;
 }
 
